@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' blob: data:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self'; connect-src 'self'">
+<title>Hello Little One — desktop pet</title>
+<link rel="stylesheet" href="../renderer/styles.css">
+<style>
+  html, body { background: transparent !important; }
+  #viewport { background: transparent; }
+  #world { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+</style>
+</head>
+<body>
+<div id="viewport"><div id="world"></div></div>
+<script type="module" src="desktop.js"></script>
+</body>
+</html>

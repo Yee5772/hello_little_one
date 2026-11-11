@@ -1,0 +1,10 @@
+{
+  "name": "hello-little-one-desktop",
+  "productName": "Hello Little One Desktop",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/main/main.js",
+  "scripts": { "start": "electron ." },
+  "dependencies": { "koffi": "3.3.2" },
+  "devDependencies": { "electron": "44.5.1" }
+}

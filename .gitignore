@@ -1,0 +1,8 @@
+node_modules/
+.npm-cache/
+.electron-cache/
+.local/
+.env
+.env.txt
+chat-error.log
+reference/
